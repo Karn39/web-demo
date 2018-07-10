@@ -2,9 +2,127 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>inline</title>
   </head>
   <body>
+    <style type="text/css">
+      .box{
+        style= "display:block";
+        width: 180px;
+        height: 180px;
+        border: 1px green solid;
+        float: left;
+        display:block;
+      }
+      .inbox{
+        style= "display:block";
+        width: 60px;
+        height: 60px;
+        border: 1px blue solid;
+        float: left;
+      }
+      .pushbox{
+        width: 59px;
+        height: 59px;
+        float: left;
+      }
+      #all{
+        height:540px;
+      }
+      #in{
+        width:180px;
+      }
 
-  </body>
+    </style>
+    <span id="all">
+      <span id="in" class="box"  style= "display:block">
+        <span class="inbox"  style= "display:block">
+          abc
+        </span>
+      </span>
+      <span id="in" class="box"  style= "display:block">
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:center">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box" >
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:right">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box" >
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="line-height:60px;">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box">
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:center;line-height:60px;">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box">
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:right;line-height:60px;">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box" >
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="line-height:110px;">
+            abc
+        </span>
+      </span>
+
+      <span id="in" class="box">
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:center;line-height:110px;">
+          abc
+        </span>
+      </span>
+
+      <span id="in" class="box">
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="pushbox"></span>
+        <span class="inbox" style="text-align:right;line-height:110px;">
+          abc
+        </span>
+      </span>
+    </span>
+    </body>
 </html>
