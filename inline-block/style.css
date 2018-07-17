@@ -1,0 +1,72 @@
+body{
+  outline: red solid;
+  width: 900px;
+  height: 900px;
+  position: relative
+}
+body>div{
+  display: inline-block;
+  outline: green solid;
+  width: 300px;
+  height: 300px;
+  position: absolute
+}
+body>div>div{
+  display: inline-block;
+  outline: blue solid;
+  background: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute
+}
+.topleft{
+  left:0;
+  top:0;
+  margin:auto;
+}
+.top{
+  right:0;
+  left:0;
+  top:0;
+  margin:auto;
+}
+.topright{
+  right:0;
+  top:0;
+  margin:auto;
+}
+.centerleft{
+  left:0;
+  bottom:0;
+  top:0;
+  margin:auto;
+}
+.center{
+  right:0;
+  left:0;
+  bottom:0;
+  top:0;
+  margin:auto;
+}
+.centerright{
+  right:0;
+  bottom:0;
+  top:0;
+  margin:auto;
+}
+.bottomleft{
+  left:0;
+  bottom:0;
+  margin:auto;
+}
+.bottom{
+  right:0;
+  left:0;
+  bottom:0;
+  margin:auto;
+}
+.bottomright{
+  right:0;
+  bottom:0;
+  margin:auto;
+}
